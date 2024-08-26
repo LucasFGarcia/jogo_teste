@@ -1,0 +1,46 @@
+[gd_scene format=3 uid="uid://35knldvs34k1"]
+
+[node name="Menu" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="ColorRect" type="ColorRect" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = -2.0
+offset_top = 4.0
+offset_right = -2.0
+offset_bottom = 4.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0.0298655, 0.122305, 0.0567087, 1)
+
+[node name="MadeBy" type="HBoxContainer" parent="."]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.482
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_left = -189.264
+offset_top = -82.0
+offset_right = 186.0
+offset_bottom = -6.0
+
+[node name="PlaceRoder" type="Label" parent="MadeBy"]
+layout_mode = 2
+theme_override_font_sizes/font_size = 29
+text = "Não clique nesse link"
+
+[node name="Button" type="Button" parent="MadeBy"]
+layout_mode = 2
+size_flags_horizontal = 4
+theme_override_colors/font_color = Color(0, 0.721569, 0.772549, 1)
+theme_override_font_sizes/font_size = 26
+text = "clonacartão.zip"
